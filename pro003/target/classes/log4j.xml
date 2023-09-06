@@ -16,7 +16,16 @@
     <logger name="org.springframework.context">
         <level value="info" />
     </logger>
-    <logger name="org.springframework.web">
+    <logger name="kr.co.teaspoon.controller">
+        <level value="info" />
+    </logger>
+    <logger name="kr.co.teaspoon.dao">
+        <level value="info" />
+    </logger>
+    <logger name="kr.co.teaspoon.dto">
+        <level value="info" />
+    </logger>
+    <logger name="kr.co.teaspoon.utill">
         <level value="info" />
     </logger>
     <root>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- configuration : 환경설정 / mapper : 해당 진행값-->
+<mapper namespace="sample">
+    <select id="sampleList" resultType="kr.co.teaspoon.dto.sample">
+
+    </select>
+</mapper>

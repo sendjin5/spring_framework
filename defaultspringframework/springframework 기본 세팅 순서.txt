@@ -1,0 +1,8 @@
+pom.xml
+web.xml
+applicationContext.xml => DB 및 소켓 설정 후
+dispatcher-servlet.xml => 해당 디렉토리 미리 만든 후 
+spring-security.xml => 관련 패키지 및 클래스 작성 후 
+mybatis-config.xml => 해당 패키지 작성 후
+Mapper.xml => 해당 DTO 및 DB 테이블 작성 후
+log4j.xml => 해당 패키지 작성 후 
