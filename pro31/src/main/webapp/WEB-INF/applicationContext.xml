@@ -16,6 +16,7 @@
         <!-- applicationContext : 빈을 설정하는 파일로 외부 자원과 연동하는 부분을 설정 -->
 
         <!-- 데이터베이스 설정 -->
+
         <!-- spring-jdbc-5.3.20.jar 안의 드라이버매니저 연결 -->
         <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
                 <property name="driverClassName" value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy" />
