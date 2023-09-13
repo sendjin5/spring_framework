@@ -9,15 +9,15 @@
     <select id="boardDetail" resultType="kr.co.teaspoon.dto.board">
         select * from board where seq=#{seq}
     </select>
-    <select id="boardInsert" >
+    <insert id="boardInsert" >
         insert into board values(default, #{title}, #{content}, #{nickname}, default, ${visited})
-    </select>
-    <select id="boardUpdate" >
+    </insert>
+    <update id="boardUpdate" >
         update board set title=#{title}, content=#{content}, nickname=#{}  where seq=#{seq}
-    </select>
-    <select id="boardDelete" >
+    </update>
+    <delete id="boardDelete" >
         delete from board where seq=#{seq}
-    </select>
+    </delete>
 </mapper>
 
 

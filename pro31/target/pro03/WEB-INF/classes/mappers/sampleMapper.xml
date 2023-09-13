@@ -12,13 +12,13 @@
     <select id="sampleCount" resultType="integer">
         select count(*) from sample
     </select>
-    <select id="sampleInsert" >
+    <insert id="sampleInsert" >
         insert into sample values(default, #{name})
-    </select>
-    <select id="sampleUpdate" >
+    </insert>
+    <update id="sampleUpdate" >
         update sample set name=#{name} where no=#{no}
-    </select>
-    <select id="sampleDelete" >
+    </update>
+    <delete id="sampleDelete" >
         delete from sample where no=#{no}
-    </select>
+    </delete>
 </mapper>

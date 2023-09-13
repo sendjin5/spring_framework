@@ -46,12 +46,10 @@ public class MemberServiceImpl implements MemberService {
     @Override
     public void memberUpdate(Member member) throws Exception {
         memberDAO.memberUpdate(member);
-
     }
 
     @Override
     public void memberDelete(String id) throws Exception {
         memberDAO.memberDelete(id);
-
     }
 }

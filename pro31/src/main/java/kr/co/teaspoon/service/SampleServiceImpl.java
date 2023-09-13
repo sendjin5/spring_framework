@@ -9,7 +9,8 @@ import java.util.List;
 
 @Service
 public class SampleServiceImpl implements SampleService{
-        @Autowired
+
+    @Autowired
         private SampleDAO sampleDAO;
 
     @Override

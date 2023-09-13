@@ -3,12 +3,14 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <c:set var="path" value="${pageContext.request.contextPath}" />
+\<script src="${path}/resources/js/jquery-3.7.1.js"></script>
+<link rel="stylesheet" href="${path}/resources/css/bulma.css" />
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <jsp:include page="./include/common.jsp"></jsp:include>
+    <%-- <jsp:include page="./include/common.jsp"></jsp:include> --%>
 </head>
 
 <body>

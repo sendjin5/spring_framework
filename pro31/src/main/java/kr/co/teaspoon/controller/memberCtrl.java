@@ -39,4 +39,5 @@ public class memberCtrl {
         return "/member/memberGet";
     }
 
+
 }

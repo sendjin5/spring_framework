@@ -2,9 +2,11 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
-<link rel="stylesheet" href="/resources/css/bulma.css" />
-<link rel="stylesheet" href="/resources/js/jquery-3.7.1.js" />
 <c:set var="${path}" value="${pageContext.request.contextPath}">
+
+
+<script src="${path}/resources/js/jquery-3.7.1.js"></script>
+<link rel="stylesheet" href="${path}/resources/css/bulma.css">
 
 <!-- 메타포, 오픈그래프, 파비콘, 폰트 등 각 종 자원 로딩 -->
 <meta http-equiv="X-UA-Compatible" content="IE=dege"> <!-- 인터넷익스프로러로 접근시 엣지로 연결되게 함 -->
@@ -30,7 +32,7 @@
 <meta name="twitter:title" content="myroo">
 <meta name="twitter:description" content="앞선 생각으로 더 큰 미래의 교육을 준비하는 기업">
 <meta name="twitter:image" content="https://github.com/chunjae-luigi/project2/image/logo.png">
-<%--
+
 <!-- 파비콘 설정 -->
 <!-- 16x16, 24x24, 32x32, 48x48, 64x64, 96x96, 114x114, 128x128, 256x256 등을 활용-->
 <!-- 표준 파비콘 -->
@@ -46,11 +48,3 @@
 <link rel="icon" href="${path }/images/common/icon_48.png" sizes="48x48">
 
 
-<script src="${path}/js/jquery-1.10.0.js"></script>
-<script src="${path}/js/nav.js"></script>
-
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    --%>
