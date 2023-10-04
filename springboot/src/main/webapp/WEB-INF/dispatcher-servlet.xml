@@ -24,6 +24,8 @@
     <resources mapping="/reservation/**" location="/WEB-INF/views/reservation" />
     <resources mapping="/util/**" location="/WEB-INF/views/util" />
     <resources mapping="/sample/**" location="/WEB-INF/views/sample" />
+    <resources mapping="/check/**" location="/WEB-INF/views/check" />
+    <resources mapping="/ajax/**" location="/WEB-INF/views/ajax" />
 
 
     <!-- 컨트롤러에서 던진 URL : /notice/noticeList -->
@@ -46,7 +48,7 @@
     </beans:bean>
 
     <!-- 기본 메인 패키지 및 컨트롤러 패키지 설정 -->
-    <context:component-scan base-package="kr.co.teaspoon.controller" />
+    <context:component-scan base-package="kr.ed.haebeop.controller" />
     <annotation-driven />
 
     <!-- 인터셉터 : 글쓰기와 같은 회원권한을 가진 경우는 반드시 로그인 페이지를 거쳐서 시도할 것  -->

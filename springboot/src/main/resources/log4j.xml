@@ -9,23 +9,23 @@
         </layout>
     </appender>
 
-    <logger name="kr.co.teaspoon.controller">
+    <logger name="kr.ed.haebeop.controller">
         <level value="info" />
     </logger>
 
-    <logger name="kr.co.teaspoon.dao">
+    <logger name="kr.ed.haebeop.dao">
         <level value="info" />
     </logger>
 
-    <logger name="kr.co.teaspoon.dto">
+    <logger name="kr.ed.haebeop.dto">
         <level value="info" />
     </logger>
 
-    <logger name="kr.co.teaspoon.service">
+    <logger name="kr.ed.haebeop.service">
         <level value="info" />
     </logger>
 
-    <logger name="kr.co.teaspoon.util">
+    <logger name="kr.ed.haebeop.util">
         <level value="info" />
     </logger>
 

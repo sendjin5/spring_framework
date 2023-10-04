@@ -1,14 +1,13 @@
-package kr.ed.haebeop.domain;
+package kr.ed.haebeop.test;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-
-public class test {
-    private int num;
-    private String name;
+@NoArgsConstructor
+public class Check {
+    private String id;
+    private String pw;
 }
