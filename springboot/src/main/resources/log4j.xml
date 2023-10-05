@@ -13,11 +13,15 @@
         <level value="info" />
     </logger>
 
-    <logger name="kr.ed.haebeop.dao">
+    <logger name="kr.ed.haebeop.domain">
         <level value="info" />
     </logger>
 
-    <logger name="kr.ed.haebeop.dto">
+    <logger name="kr.ed.haebeop.persistence">
+        <level value="info" />
+    </logger>
+
+    <logger name="kr.ed.haebeop.repository">
         <level value="info" />
     </logger>
 
@@ -26,6 +30,14 @@
     </logger>
 
     <logger name="kr.ed.haebeop.util">
+        <level value="info" />
+    </logger>
+
+    <logger name="kr.ed.haebeop.test">
+        <level value="info" />
+    </logger>
+
+    <logger name="kr.ed.haebeop">
         <level value="info" />
     </logger>
 
